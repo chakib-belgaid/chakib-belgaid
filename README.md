@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+Feel free to check my blog at [chakib-belgaid.github.io](https://chakib-belgaid.github.io)
+
 <!--
 **chakib-belgaid/chakib-belgaid** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
