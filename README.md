@@ -1,40 +1,17 @@
 ### Hi there 👋
+🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱
+
+I’m currently working on **energy consumption** of *programming languages* 
+I develop tools to measure the energy consumption of a program, a function or just some blocks of code 
+
+**GREEN CODING** is my signature 
+
+I'm currently learning *statistics* *data visualisation* and *machine learning*
+and in my free time i try new frameworks ( right now i'm into flutter 😄 )
 
 Feel free to check my blog at [chakib-belgaid.github.io](https://chakib-belgaid.github.io)
+ 
 
-
-```chart
-{
-  "type": "pie",
-  "data": {
-    "labels": [
-      "Red",
-      "Blue",
-      "Yellow"
-    ],
-    "datasets": [
-      {
-        "data": [
-          300,
-          50,
-          100
-        ],
-        "backgroundColor": [
-          "#FF6384",
-          "#36A2EB",
-          "#FFCE56"
-        ],
-        "hoverBackgroundColor": [
-          "#FF6384",
-          "#36A2EB",
-          "#FFCE56"
-        ]
-      }
-    ]
-  },
-  "options": {}
-}
-```
 <!--
 **chakib-belgaid/chakib-belgaid** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
