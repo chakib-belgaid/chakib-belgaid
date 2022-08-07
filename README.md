@@ -9,7 +9,7 @@ I'm passionate about data visualization and software insights. I'm attempting to
 
 Feel free to check my blog [chakib-belgaid.github.io](https://chakib-belgaid.github.io)
  
-I joined GitHub on `{{ f.date(REGISTRATION_DATE, {date:true}) }}`.
-I contributed to `{{ REPOSITORIES_CONTRIBUTED_TO }}` repositories and made `{{ COMMITS }}` commits.
+I joined GitHub on `23 Dec 2013`.
+I contributed to `19` repositories and made `423` commits.
 
 <!-- ![Metrics](/github-metrics.svg) -->
