@@ -22,13 +22,13 @@ ___
 ___
 
 ## Programming Languages
-
-<%- await embed(`example-languages-pdf`, {languages:true,languages_indepth:true, languages_details:"percentage, bytes-size", config_display:"large"}) %>
+<!-- 
+<%- await embed(`example-languages-pdf`, {languages:true,languages_indepth:true, languages_details:"percentage, bytes-size", config_display:"large"}) %> -->
 ___
 
 ## 🏆 Achievements
 <!-- <img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-achievements-pdf.svg"> -->
-<%- await embed(`achievements-pdf`,{achievements_display:"compact"} ) %>
+<!-- <%- await embed(`achievements-pdf`,{achievements_display:"compact"} ) %> -->
 ___
 
 ## History of my contributions
