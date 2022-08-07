@@ -15,22 +15,7 @@ Since then, I've contributed to `19` repositories and made `442` commits. -->
 ___
 # My Activities in a Nutshell 
 
-<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-base-pdf.svg">
-
-<!-- **[📌 Starred topics](https://github.com/chakib-belgaid?tab=stars)** -->
-___
-# Statistics about my languages: 
-<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-languages-pdf.svg">
-___
-
-# 🏆 Achievements
-<!-- <img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-achievements-pdf.svg"> -->
-<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/achievements-pdf.svg">
-___
-
-# History of my contributions 
-<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-isocalendar.svg">
-
+![Metrics](https://metrics.lecoq.io/chakib-belgaid)
 
 
 
