@@ -48,10 +48,5 @@ jobs:
                   token: ${{ secrets.METRICS_TOKEN }}
                   base: ""
                   plugin_languages: yes
-                  plugin_languages_ignored: >-
-                      html, css, less, dockerfile, makefile, qmake, lex, cmake,
-                      gnuplot
-                  plugin_languages_indepth: yes
+                  plugin_languages_indepth: no
                   plugin_languages_details: lines, bytes-size
-                  plugin_languages_limit: 30
-                  plugin_languages_analysis_timeout: 15
