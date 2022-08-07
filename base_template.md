@@ -15,21 +15,21 @@ Since then, I've contributed to `{{ REPOSITORIES_CONTRIBUTED_TO }}` repositories
 ___
 # My Activities in a Nutshell 
 
-<%- await embed(`example-base-pdf`, {base_indepth:true,base_hireable:true }) %>
+<%- await embed(example-base-pdf, {indepth:true,hireable:true}) %>
 
 <!-- **[📌 Starred topics](https://github.com/chakib-belgaid?tab=stars)** -->
 ___
 # Statistics about my languages: 
-<%- await embed(`example-languages-pdf`, {languages:true, languages_details:"percentage, bytes-size", config_display:"large"}) %>
+<%- await embed(`example-languages-pdf`, {languages:true,languages_indepth:true, languages_details:"percentage, bytes-size", config_display:"large"}) %>
 ___
 
 # 🏆 Achievements
 <!-- <img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-achievements-pdf.svg"> -->
-<%- await embed(`achievements-pdf`,{plugin_achievements_display:"compact"} ) %>
+<%- await embed(`achievements-pdf`,{achievements_display:"compact"} ) %>
 ___
 
 # History of my contributions 
-<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-isocalendar.svg">
+<%- await embed(example-isocalendar, {isocalendar:true, isocalendar_duration:"full-year", config_display:"large"}) %>
 
 
 
