@@ -17,7 +17,7 @@ ___
 
 ## My Activities in a Nutshell
 
-<%- await embed(example-base-pdf, {indepth:true,hireable:true}) %>
+<%- await embed(example-base-pdf, {indepth:false,hireable:true}) %>
 
 <!-- **[📌 Starred topics](https://github.com/chakib-belgaid?tab=stars)** -->
 ___
