@@ -32,9 +32,7 @@ jobs:
                   base: yes
                   base_indepth: yes
                   plugin_activity: yes
-                  plugin_activity: yes
-                  base_hireable : yes 
-
+                  base_hireable: yes
                   # plugin_activity_limit: 7
                   # plugin_activity_days: 0
                   # plugin_activity_filter: issue, pr, release, fork, review, ref/create
