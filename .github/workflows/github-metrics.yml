@@ -13,12 +13,14 @@ jobs:
         permissions:
             contents: write
         steps:
-            - uses: lowlighter/metrics@latest
+            - name: basic metrics
+              uses: lowlighter/metrics@latest
               with:
-                  base: ".cache"
                   filename: metrics.classic.svg
                   token: ${{ secrets.METRICS_TOKEN }}
+                  base: header, activity, community, repositories, metadata
                   base_indepth: yes
+                  base_hireable: yes
 
               # - uses: lowlighter/metrics@main
               # with:
