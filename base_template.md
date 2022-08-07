@@ -15,7 +15,7 @@ Since then, I've contributed to `{{ REPOSITORIES_CONTRIBUTED_TO }}` repositories
 ___
 # My Activities in a Nutshell 
 
-<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-base-pdf.svg">
+<%- await embed(`example-base-pdf`, ) %>
 
 <!-- **[📌 Starred topics](https://github.com/chakib-belgaid?tab=stars)** -->
 ___
@@ -24,7 +24,8 @@ ___
 ___
 
 # 🏆 Achievements
-<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-achievements-pdf.svg">
+<!-- <img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-achievements-pdf.svg"> -->
+<%- await embed(`example-base-pdf`, ) %>
 ___
 
 # History of my contributions 
