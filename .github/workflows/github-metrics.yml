@@ -14,24 +14,20 @@ jobs:
             contents: write
         steps:
             - name: basic metrics
-              uses: lowlighter/metrics@latest
+              uses: lowlighter/metrics@main
               with:
-                  filename: metrics.classic.svg
+                  filename: .cache/metrics.classic.svg
                   token: ${{ secrets.METRICS_TOKEN }}
-                  base: header, activity, community, repositories, metadata
+                  base: header, activity, community, repositories
                   base_indepth: yes
                   base_hireable: yes
 
-              # - uses: lowlighter/metrics@main
-              # with:
-              #     plugin_languages: yes
-              #     plugin_languages_indepth: yes
-              #     token: ${{ secrets.METRICS_TOKEN }}
-              # - uses: lowlighter/metrics@main
-              # with:
-              #     filename: metrics.plugin.achievements.compact.svg
-              #     token: ${{ secrets.METRICS_TOKEN }}
-              #     base: ".cache"
-              #     plugin_achievements: yes
-              #     plugin_achievements_display: compact
-              #     plugin_achievements_threshold: X
+            - name: Compact display
+              uses: lowlighter/metrics@main
+              with:
+                  filename: cache/metrics.plugin.achievements.compact.svg
+                  token: ${{ secrets.METRICS_TOKEN }}
+                  base: ""
+                  plugin_achievements: yes
+                  plugin_achievements_display: compact
+                  plugin_achievements_threshold: X
