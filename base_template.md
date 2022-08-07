@@ -15,7 +15,7 @@ Since then, I've contributed to `{{ REPOSITORIES_CONTRIBUTED_TO }}` repositories
 ___
 # My Activities in a Nutshell 
 
-<%- await embed(`example-base-pdf`, ) %>
+<%- await embed(`example-base-pdf`, {base_indepth:true,base_hireable:true }) %>
 
 <!-- **[📌 Starred topics](https://github.com/chakib-belgaid?tab=stars)** -->
 ___
