@@ -10,7 +10,7 @@ I'm passionate about data visualization and software insights. I'm attempting to
 Feel free to check my blog [chakib-belgaid.github.io](https://chakib-belgaid.github.io)
  
 <!-- I joined GitHub on `23 Dec 2013`.
-Since then, I've contributed to `19` repositories and made `430` commits. -->
+Since then, I've contributed to `19` repositories and made `432` commits. -->
 
 ___
 # My Activities in a Nutshell 
@@ -24,7 +24,7 @@ ___
 ___
 
 # 🏆 Achievements
-<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-achievements.compact.svg">
+<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-achievements-pdf.svg">
 ___
 # History of my contributions 
 <img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-isocalendar.svg">
