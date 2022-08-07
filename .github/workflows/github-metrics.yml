@@ -13,7 +13,6 @@ jobs:
         permissions:
             contents: write
         steps:
-            name: Example
             - uses: lowlighter/metrics@latest
             with:
                 base: ".cache"
