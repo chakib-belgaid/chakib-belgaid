@@ -17,7 +17,7 @@ ___
 
 ## 🥜 My Activities in a Nutshell
 
-![Metrics](/.renders/metrics.achievements.svg)
+![Metrics](/.renders/metrics.basic.svg)
 
 <!-- **[📌 Starred topics](https://github.com/chakib-belgaid?tab=stars)** -->
 ___
