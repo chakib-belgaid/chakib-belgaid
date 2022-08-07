@@ -30,6 +30,7 @@ jobs:
                   config_output: markdown
                   markdown_cache: .cache
                   config_output: json
+                  plugin_base: yes
                   # plugin_activity: yes
                   # plugin_activity_limit: 7
                   # plugin_activity_days: 0
@@ -48,7 +49,6 @@ jobs:
                   # plugin_tweets_attachments: yes
                   # plugin_tweets_limit: 2
                   plugin_achievements: yes
-                  plugin_achievements_display: compact
                   plugin_topics: yes
                   plugin_topics_limit: 24
                   plugin_isocalendar: yes

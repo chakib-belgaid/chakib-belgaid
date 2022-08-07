@@ -25,7 +25,7 @@ ___
 
 # 🏆 Achievements
 <!-- <img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-achievements-pdf.svg"> -->
-<%- await embed(`example-base-pdf`, ) %>
+<%- await embed(`achievements-pdf`,{plugin_achievements_display:"compact"} ) %>
 ___
 
 # History of my contributions 
