@@ -20,7 +20,7 @@ ___
 <!-- **[📌 Starred topics](https://github.com/chakib-belgaid?tab=stars)** -->
 ___
 # Statistics about my languages: 
-<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-languages-pdf.svg">
+<%- await embed(`example-languages-pdf`, {languages:true, languages_details:"percentage, bytes-size", config_display:"large"}) %>
 ___
 
 # 🏆 Achievements
