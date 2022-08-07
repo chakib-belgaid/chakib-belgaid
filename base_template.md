@@ -24,7 +24,7 @@ ___
 ___
 
 # 🏆 Achievements
-<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-achievements.compact.svg">
+<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-achievements-pdf.svg">
 ___
 # History of my contributions 
 <img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-isocalendar.svg">
