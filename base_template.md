@@ -23,6 +23,9 @@ ___
 <img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-languages-pdf.svg">
 ___
 
+# 🏆 Achievements
+<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-achievements.compact.svg">
+___
 # History of my contributions 
 <img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-isocalendar.svg">
 
