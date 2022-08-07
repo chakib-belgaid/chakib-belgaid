@@ -22,7 +22,7 @@ jobs:
                   base_indepth: yes
                   base_hireable: yes
 
-            - name: Compact display
+            - name: Achievements
               uses: lowlighter/metrics@main
               with:
                   filename: .renders/metrics.achievements.svg
@@ -32,7 +32,7 @@ jobs:
                   plugin_achievements_display: compact
                   plugin_achievements_threshold: X
 
-            - name: Full-year calendar
+            - name: calendar
               uses: lowlighter/metrics@main
               with:
                   filename: .renders/metrics.isocalendar.svg
