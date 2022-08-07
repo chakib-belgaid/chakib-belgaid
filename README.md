@@ -1,39 +1,43 @@
-### Hi there 👋
+# Hi there 👋
+
 🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱
 
 At the moment, I'm investigating how much **energy** programming languages consume. I provide tools to measure the energy usage of a software, a function, or just a few lines of code.
 
-**GREEN CODING** is my signature 
+**GREEN CODING** is my signature
 
 I'm passionate about data visualization and software insights. I'm attempting to give a set of indicators and KPIs to assist developers in increasing the performance of their code while decreasing its energy usage.
 
 Feel free to check my blog [chakib-belgaid.github.io](https://chakib-belgaid.github.io)
- 
-<!-- I joined GitHub on `23 Dec 2013`.
-Since then, I've contributed to `19` repositories and made `442` commits. -->
+
+<!-- I joined GitHub on `{{ f.date(REGISTRATION_DATE, {date:true}) }}`.
+Since then, I've contributed to `{{ REPOSITORIES_CONTRIBUTED_TO }}` repositories and made `{{ COMMITS }}` commits. -->
 
 ___
-# My Activities in a Nutshell 
 
-<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-base-pdf.svg">
+## 🥜 My Activities in a Nutshell
+
+![Metrics](/.renders/metrics.basic.svg)
 
 <!-- **[📌 Starred topics](https://github.com/chakib-belgaid?tab=stars)** -->
 ___
-# Statistics about my languages: 
-<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-languages-pdf.svg">
+
+## 🏆 Achievements
+
+![Achievemetns](/.renders/metrics.achievements.svg)
+
 ___
 
-# 🏆 Achievements
-<!-- <img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-achievements-pdf.svg"> -->
-<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/achievements-pdf.svg">
+## Programming Languages
+
+![Languages](/.renders/metrics.languages.svg)
+<!-- 
+<%- await embed(`example-languages-pdf`, {languages:true,languages_indepth:true, languages_details:"percentage, bytes-size", config_display:"large"}) %> -->
+
 ___
 
-# History of my contributions 
-<img src="https://github.com/chakib-belgaid/chakib-belgaid/blob/main/.cache/example-isocalendar.svg">
+## 📅 History of my contributions
 
+<!-- <%- await embed(example-isocalendar, {isocalendar:true, isocalendar_duration:"full-year", config_display:"large"}) %> -->
 
-
-
-
-
-<!-- ![Metrics](/github-metrics.svg) -->
+![calendar](/.renders/metrics.isocalendar.svg)
