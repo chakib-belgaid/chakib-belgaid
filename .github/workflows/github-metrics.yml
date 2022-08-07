@@ -30,8 +30,7 @@ jobs:
                   config_output: markdown
                   markdown_cache: .cache
                   base: yes
-                  base_indepth: yes
-                  plugin_activity: yes
+                  base_indepth: no
                   base_hireable: yes
                   # plugin_activity_limit: 7
                   # plugin_activity_days: 0
@@ -55,4 +54,5 @@ jobs:
                   plugin_topics_limit: 24
                   plugin_isocalendar: yes
                   plugin_languages: yes
+                  plugin_languages_limit: 20
                   token: ${{ secrets.METRICS_TOKEN }}
