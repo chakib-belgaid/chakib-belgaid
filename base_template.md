@@ -17,7 +17,6 @@ ___
 
 ## My Activities in a Nutshell
 
-<%- await embed(example-base-pdf, {indepth:false,hireable:true}) %>
 
 <!-- **[📌 Starred topics](https://github.com/chakib-belgaid?tab=stars)** -->
 ___
@@ -34,6 +33,6 @@ ___
 
 ## History of my contributions
 
-<%- await embed(example-isocalendar, {isocalendar:true, isocalendar_duration:"full-year", config_display:"large"}) %>
+<!-- <%- await embed(example-isocalendar, {isocalendar:true, isocalendar_duration:"full-year", config_display:"large"}) %> -->
 
 <!-- ![Metrics](/github-metrics.svg) -->
