@@ -14,15 +14,15 @@ jobs:
             contents: write
         steps:
             - uses: lowlighter/metrics@latest
-                with:
-                    plugin_languages: yes
-                    plugin_languages_indepth: yes
-                    token: ${{ secrets.METRICS_TOKEN }}
+            with:
+                plugin_languages: yes
+                plugin_languages_indepth: yes
+                token: ${{ secrets.METRICS_TOKEN }}
             - uses: lowlighter/metrics@latest
-                with:
-                    filename: metrics.plugin.achievements.compact.svg
-                    token: ${{ secrets.METRICS_TOKEN }}
-                    base: ".cache"
-                    plugin_achievements: yes
-                    plugin_achievements_display: compact
-                    plugin_achievements_threshold: X
+            with:
+                filename: metrics.plugin.achievements.compact.svg
+                token: ${{ secrets.METRICS_TOKEN }}
+                base: ".cache"
+                plugin_achievements: yes
+                plugin_achievements_display: compact
+                plugin_achievements_threshold: X
