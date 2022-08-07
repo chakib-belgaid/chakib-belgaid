@@ -26,7 +26,7 @@ jobs:
                   template: markdown
                   filename: README.md
                   markdown: >-
-                      https://raw.githubusercontent.com/chakib-belgaid/chakib-belgaid/main/README.md
+                      https://raw.githubusercontent.com/chakib-belgaid/chakib-belgaid/main/base_template.md
                   config_output: markdown
                   # plugin_activity: yes
                   # plugin_activity_limit: 7
