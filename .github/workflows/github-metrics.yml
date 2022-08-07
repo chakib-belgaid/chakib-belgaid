@@ -29,7 +29,6 @@ jobs:
                       https://raw.githubusercontent.com/chakib-belgaid/chakib-belgaid/main/base_template.md
                   config_output: markdown
                   markdown_cache: .cache
-                  config_output: json
                   plugin_base: yes
                   # plugin_activity: yes
                   # plugin_activity_limit: 7
