@@ -36,8 +36,6 @@ ___
 
 ___
 
-## 📅 History of my contributions
+<!-- ## 📅 History of my contributions
 
 <!-- <%- await embed(example-isocalendar, {isocalendar:true, isocalendar_duration:"full-year", config_display:"large"}) %> -->
-
-![calendar](/.renders/metrics.isocalendar.svg)
