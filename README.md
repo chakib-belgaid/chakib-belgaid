@@ -1,41 +1,56 @@
-# Hi there 👋
+# Hi, I'm Chakib Belgaid 👋
 
-🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱🌱
+![Vision banner](assets/readme-vision-banner.svg)
 
-At the moment, I'm investigating how much **energy** programming languages consume. I provide tools to measure the energy usage of a software, a function, or just a few lines of code.
+I build software with one guiding idea: **high performance should also be energy-responsible**.
 
-**GREEN CODING** is my signature
 
-I'm passionate about data visualization and software insights. I'm attempting to give a set of indicators and KPIs to assist developers in increasing the performance of their code while decreasing its energy usage.
+## 🌍 Current Plans
 
-Feel free to check my blog [chakib-belgaid.github.io](https://chakib-belgaid.github.io)
+- Develop practical tooling to measure software energy usage at multiple levels (application, service, function, and code block).
+- Publish reproducible benchmarks that help teams compare implementation choices through both performance and sustainability lenses.
+- Keep building open resources that make **green coding** actionable for everyday engineering work.
 
-<!-- I joined GitHub on `{{ f.date(REGISTRATION_DATE, {date:true}) }}`.
-Since then, I've contributed to `{{ REPOSITORIES_CONTRIBUTED_TO }}` repositories and made `{{ COMMITS }}` commits. -->
+## 🚀 Ambitions
 
-___
+- Turn energy-aware engineering into a standard quality metric, right beside latency, reliability, and cost.
+- Bridge research and developer experience by shipping tools that are rigorous, visual, and easy to integrate in CI/CD.
+- Build complete system architectures where energy efficiency, reliability, and developer productivity are designed together from day one.
+- Contribute to a future where optimization means **better software + lower environmental impact**.
+
+## 🎨 Taste & Working Style
+
+- I like clean, minimal interfaces with meaningful visuals.
+- I prefer evidence-driven decisions powered by metrics, KPIs, and clear data stories.
+- I enjoy building systems that are elegant internally and useful externally.
+
+## 🧪 Focus Areas
+
+- Energy profiling & observability
+- Performance diagnostics
+- Data visualization for engineering insights
+- Developer tooling for sustainable software
+- Local LLM experimentation and on-device inference workflows
+- Generative AI applications with measurable performance and energy trade-offs
+- Agentic design patterns (tool use, memory, orchestration, and safety boundaries)
+- End-to-end system architecture (data, model, infra, API, and product layers)
+
+📎 Blog: [chakib-belgaid.github.io](https://chakib-belgaid.github.io)
+
+---
 
 ## 🥜 My Activities in a Nutshell
 
 ![Metrics](/.renders/metrics.basic.svg)
 
-<!-- **[📌 Starred topics](https://github.com/chakib-belgaid?tab=stars)** -->
-___
+---
 
 ## 🏆 Achievements
 
-![Achievemetns](/.renders/metrics.achievements.svg)
+![Achievements](/.renders/metrics.achievements.svg)
 
-___
+---
 
 ## Programming Languages
 
 ![Languages](/.renders/metrics.languages.svg)
-<!-- 
-<%- await embed(`example-languages-pdf`, {languages:true,languages_indepth:true, languages_details:"percentage, bytes-size", config_display:"large"}) %> -->
-
-___
-
-<!-- ## 📅 History of my contributions
-
-<!-- <%- await embed(example-isocalendar, {isocalendar:true, isocalendar_duration:"full-year", config_display:"large"}) %> -->
