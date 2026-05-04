@@ -35,6 +35,20 @@ The map is about energy-aware software engineering: green coding, measurement, t
 - Developer tools, automation, and experiments that help me learn faster
 - Energy-aware and performance-aware engineering
 
+## GitHub Metrics
+
+### Activity
+
+![Metrics](/.renders/metrics.basic.svg)
+
+### Achievements
+
+![Achievements](/.renders/metrics.achievements.svg)
+
+### Programming Languages
+
+![Languages](/.renders/metrics.languages.svg)
+
 ## Projects
 
 ### Current work
