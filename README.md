@@ -1,46 +1,59 @@
-# Chakib Belgaid
+# Chakib Belgaid, PhD
 
-AI Research Engineer · Software Engineer · PhD in Software Engineering
+I build AI systems, developer tools, and energy-aware infrastructure.
 
-I build AI and software systems that move research ideas toward usable, measurable products.
-
-[Email](mailto:chakib.belgaid@gmail.com) · [LinkedIn](https://linkedin.com/in/chakib-belgaid) · [Blog](https://chakib-belgaid.github.io)
+The thread through my work is measurement: LLM agents should be evaluated, production systems should be observable, and energy claims should be reproducible before they are optimized.
 
 ## Work
 
-- AI systems, agentic workflows, inference, and evaluation
-- Software architecture and developer tooling
-- Energy-aware and performance-aware engineering
-- Research prototypes turned into reliable software
+My current focus is the overlap between:
 
-## Current Project
+- LLM systems: tool-calling agents, retrieval, structured outputs, and evaluation loops.
+- Backend systems: APIs, software architecture, automation, and production-facing developer tools.
+- Energy-aware software: measurement, benchmarking, profiling overhead, reproducibility, and regression detection.
+- Research prototypes that become usable tools, not only demos.
 
-**[Wattch](https://github.com/chakib-belgaid/Wattch)** - energy profiling infrastructure for developers and AI coding agents. Rust, work in progress.
+## Current Project: Wattch
+
+**[Wattch](https://github.com/chakib-belgaid/Wattch)** is lightweight energy-profiling infrastructure for developers and AI coding agents.
+
+It is a Rust daemon and CLI for low-overhead energy measurement, built around reproducible benchmarks and machine-readable reports. The long-term direction is IDE and MCP integration, so AI agents can detect energy regressions, reason about measurement confidence, and suggest greener code changes without hiding overhead or uncertainty.
+
+Status: work in progress.
 
 ## Selected Repositories
 
-- [jreferral](https://github.com/chakib-belgaid/jreferral) - recommends energy-efficient JVM configurations for Java software.
-- [IJoules](https://github.com/chakib-belgaid/IJoules) - measures energy consumption of Python code on macOS / Intel CPU.
-- [chakib_belgaid_thesis](https://github.com/chakib-belgaid/chakib_belgaid_thesis) - thesis source/materials behind my work on energy-aware software engineering.
+### Energy-aware software
+
+- **[jreferral](https://github.com/chakib-belgaid/jreferral)** - recommends energy-efficient JVM configurations for Java software.
+- **[IJoules](https://github.com/chakib-belgaid/IJoules)** - measures energy consumption of Python code on macOS / Intel CPU.
+
+### AI / developer tools
+
+- **[Wattch](https://github.com/chakib-belgaid/Wattch)** - current project; Rust daemon and CLI for developer-facing energy profiling.
+
+## Research Foundation
+
+My PhD work focused on energy-aware software engineering: measurement, benchmarking, testing, optimization, language/runtime behavior, and reproducibility. Wattch builds on that foundation by turning the research concerns into developer infrastructure: repeatable runs, explicit overhead, structured reports, and tooling that can fit into an engineering workflow.
+
+- **[chakib_belgaid_thesis](https://github.com/chakib-belgaid/chakib_belgaid_thesis)** - thesis source and materials.
 
 <details>
-<summary>GitHub metrics</summary>
-
-![Metrics](/.renders/metrics.basic.svg)
-
-![Achievements](/.renders/metrics.achievements.svg)
-
-![Languages](/.renders/metrics.languages.svg)
-
-</details>
-
-<details>
-<summary>PhD thesis map</summary>
+<summary>Thesis map</summary>
 
 ![PhD thesis visual map](assets/thesis-brain-map-ai.png)
 
 Source: [thesisBrainMap.svg](assets/thesisBrainMap.svg) · [thesisBrainMap.drawio](assets/thesisBrainMap.drawio)
 
-The map is about energy-aware software engineering: green coding, measurement, testing, optimization, benchmarks, programming languages, and the tooling needed to make the work reproducible.
-
 </details>
+
+## Engineering Taste
+
+- Measurable before optimized.
+- Local-first when possible.
+- Explicit about uncertainty and overhead.
+- Useful to developers, not only impressive in demos.
+
+## Contact
+
+[Email](mailto:chakib.belgaid@gmail.com) · [LinkedIn](https://linkedin.com/in/chakib-belgaid) · [Blog](https://chakib-belgaid.github.io)
