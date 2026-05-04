@@ -34,18 +34,17 @@ Status: work in progress.
 
 ## Research Foundation
 
+![PhD thesis visual map](assets/thesis-brain-map-ai.png)
+
 My PhD work focused on energy-aware software engineering: measurement, benchmarking, testing, optimization, language/runtime behavior, and reproducibility. Wattch builds on that foundation by turning the research concerns into developer infrastructure: repeatable runs, explicit overhead, structured reports, and tooling that can fit into an engineering workflow.
 
 - **[chakib_belgaid_thesis](https://github.com/chakib-belgaid/chakib_belgaid_thesis)** - thesis source and materials.
 
-<details>
-<summary>Thesis map</summary>
 
-![PhD thesis visual map](assets/thesis-brain-map-ai.png)
 
 Source: [thesisBrainMap.svg](assets/thesisBrainMap.svg) · [thesisBrainMap.drawio](assets/thesisBrainMap.drawio)
 
-</details>
+
 
 ## Engineering Taste
 
