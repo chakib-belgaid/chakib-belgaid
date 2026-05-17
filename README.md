@@ -1,8 +1,8 @@
 # Chakib Belgaid, PhD
 
-I build AI systems, developer tools, and energy-aware infrastructure.
+I build AI systems, developer tools, creative media software, and energy-aware infrastructure.
 
-The thread through my work is measurement: LLM agents should be evaluated, production systems should be observable, and energy claims should be reproducible before they are optimized.
+The thread through my work is measurement and usable experimentation: LLM agents should be evaluated, production systems should be observable, creative tools should be tangible, and energy claims should be reproducible before they are optimized.
 
 ## Work
 
@@ -10,6 +10,7 @@ My current focus is the overlap between:
 
 - LLM systems: tool-calling agents, retrieval, structured outputs, and evaluation loops.
 - Backend systems: APIs, software architecture, automation, and production-facing developer tools.
+- Creative tools: generative interfaces, image workflows, audiobooks, and small web apps that are useful as tools, not only demos.
 - Energy-aware software: measurement, benchmarking, profiling overhead, reproducibility, and regression detection.
 - Research prototypes that become usable tools, not only demos.
 
@@ -21,6 +22,15 @@ It is a Rust daemon and CLI for low-overhead energy measurement, built around re
 
 Status: work in progress.
 
+## Recent Work
+
+Recent public activity in May 2026 has leaned into creative tools and media workflows:
+
+- **[Fractal Brushes](https://github.com/chakib-belgaid/fractal-brushes)** - a generative-art web app for fractal and symmetry-based backgrounds. [Open the live demo](https://chakib-belgaid.github.io/fractal-brushes/).
+- **[Whispbook](https://github.com/chakib-belgaid/whispbook)** - a self-hosted audiobook studio for turning selectable-text documents into chaptered audio with subtitles.
+- **[Magicbook](https://github.com/chakib-belgaid/magicbook)** / **[magicbook-react](https://github.com/chakib-belgaid/magicbook-react)** - coloring and image-generation experiments for child-facing creative apps.
+- **[Vectorize](https://github.com/chakib-belgaid/Vectorize)** - experiments around vectorizing AI-generated infographic assets.
+
 ## Selected Repositories
 
 ### Energy-aware software
@@ -31,6 +41,13 @@ Status: work in progress.
 ### AI / developer tools
 
 - **[Wattch](https://github.com/chakib-belgaid/Wattch)** - current project; Rust daemon and CLI for developer-facing energy profiling.
+- **[whispbook](https://github.com/chakib-belgaid/whispbook)** - TypeScript audiobook tooling for document-to-audio workflows.
+
+### Creative web / media tools
+
+- **[Fractal Brushes](https://github.com/chakib-belgaid/fractal-brushes)** - static frontend for generating artsy fractal and symmetry backgrounds. [Live demo](https://chakib-belgaid.github.io/fractal-brushes/).
+- **[Magicbook](https://github.com/chakib-belgaid/magicbook)** - mobile app that helps children color.
+- **[Vectorize](https://github.com/chakib-belgaid/Vectorize)** - vectorization experiments for generated infographic assets.
 
 ## Research Foundation
 
@@ -40,11 +57,7 @@ My PhD work focused on energy-aware software engineering: measurement, benchmark
 
 - **[chakib_belgaid_thesis](https://github.com/chakib-belgaid/chakib_belgaid_thesis)** - thesis source and materials.
 
-
-
 Source: [thesisBrainMap.svg](assets/thesisBrainMap.svg) · [thesisBrainMap.drawio](assets/thesisBrainMap.drawio)
-
-
 
 ## Engineering Taste
 
