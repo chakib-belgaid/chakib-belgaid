@@ -65,3 +65,15 @@ Source: [thesisBrainMap.svg](assets/thesisBrainMap.svg) · [thesisBrainMap.drawi
 ## Contact
 
 [Email](mailto:chakib.belgaid@gmail.com) · [LinkedIn](https://linkedin.com/in/chakib-belgaid) · [Blog](https://chakib-belgaid.github.io)
+
+## Mobile TTS Streaming Blueprint
+
+I added a practical implementation blueprint for lightweight mobile chapter narration with **MeloTTS**, **CosyVoice 2**, and **QweTTS**, including:
+
+- ONNX/TFLite model format guidance,
+- chunked streaming to avoid freezes on large files,
+- ring-buffer/backpressure architecture,
+- long-file stress test criteria,
+- optional phrase highlighting using alignment timelines.
+
+See: [`docs/mobile-tts-streaming.md`](docs/mobile-tts-streaming.md).
