@@ -14,32 +14,43 @@ My current focus is the overlap between:
 - Energy-aware software: measurement, benchmarking, profiling overhead, reproducibility, and regression detection.
 - Research prototypes that become usable tools, not only demos.
 
-## Current Project: Wattch
+## Current Projects
 
-**[Wattch](https://github.com/chakib-belgaid/Wattch)** is lightweight energy-profiling infrastructure for developers and AI coding agents.
+### Wattch
 
-It is a Rust daemon and CLI for low-overhead energy measurement, built around reproducible benchmarks and machine-readable reports. The long-term direction is IDE and MCP integration, so AI agents can detect energy regressions, reason about measurement confidence, and suggest greener code changes without hiding overhead or uncertainty.
+**[Wattch](https://github.com/chakib-belgaid/Wattch)** is an exploratory Rust energy-measurement stack for Linux.
 
-Status: work in progress.
+The public v0.1-alpha implementation separates privileged RAPL acquisition from an unprivileged CLI through a Unix-domain socket. Messages use length-prefixed protobuf framing, and the CLI can list sources, stream samples, or report the RAPL energy observed while a child command runs. A deterministic in-memory backend exercises the same daemon/CLI protocol without root or hardware counters, making validation repeatable.
+
+The current implementation deliberately stays conservative: it does **not** claim process-exclusive or function-level energy attribution. The focus is the measurement boundary, validation, reproducibility, and a clean foundation for additional hardware backends.
+
+Linux release workflows build `.deb` and `.rpm` packages for the daemon and CLI.
+
+### Whispbook
+
+**[Whispbook](https://github.com/chakib-belgaid/whispbook)** is a self-hosted audiobook studio built with React and FastAPI.
+
+It imports selectable-text documents into editable chapters and paragraphs, supports paragraph previews and background audiobook generation, and runs with local/open TTS engines including Kokoro, Chatterbox, and Chatterbox Turbo. Turbo workflows support character casts, highlighted voice ranges, custom styles, and inline paralinguistic cues such as `[laugh]` and `[breath]`.
+
+Whispbook generates chapter `.m4a` audio, `.vtt` and `.srt` subtitles, and a final chaptered `.m4b` package with embedded subtitles. It can also export a Python generation script that snapshots the current book edits and TTS settings. The shipping studio remains separate from my experimental speaker-attribution and LoRA evaluation work.
 
 ## Recent Work
 
-Recent public activity in May 2026 includes:
-
+- **[Wattch](https://github.com/chakib-belgaid/Wattch)** - Rust RAPL daemon/CLI with protobuf-framed Unix sockets, deterministic validation, command-wrapper measurement, and Linux packaging.
+- **[Whispbook](https://github.com/chakib-belgaid/whispbook)** - local-first audiobook production with editable documents, multi-engine TTS, character casts, progressive generation, subtitles, and M4B export.
 - **[Fractal Brushes](https://github.com/chakib-belgaid/fractal-brushes)** - a generative-art web app for fractal and symmetry-based backgrounds. [Open the live demo](https://chakib-belgaid.github.io/fractal-brushes/).
-- **[Whispbook](https://github.com/chakib-belgaid/whispbook)** - a self-hosted audiobook studio for turning selectable-text documents into chaptered audio with subtitles.
 
 ## Selected Repositories
 
 ### Energy-aware software
 
+- **[Wattch](https://github.com/chakib-belgaid/Wattch)** - current Rust prototype for reproducible, developer-facing RAPL energy measurement.
 - **[jreferral](https://github.com/chakib-belgaid/jreferral)** - recommends energy-efficient JVM configurations for Java software.
 - **[IJoules](https://github.com/chakib-belgaid/IJoules)** - measures energy consumption of Python code on macOS / Intel CPU.
 
 ### AI / developer tools
 
-- **[Wattch](https://github.com/chakib-belgaid/Wattch)** - current project; Rust daemon and CLI for developer-facing energy profiling.
-- **[whispbook](https://github.com/chakib-belgaid/whispbook)** - TypeScript audiobook tooling for document-to-audio workflows.
+- **[whispbook](https://github.com/chakib-belgaid/whispbook)** - self-hosted React/FastAPI audiobook studio with local TTS, character voice workflows, subtitles, and M4B packaging.
 
 ### Creative web / media tools
 
@@ -49,7 +60,7 @@ Recent public activity in May 2026 includes:
 
 ![PhD thesis visual map](assets/thesis-brain-map-ai.png)
 
-My PhD work focused on energy-aware software engineering: measurement, benchmarking, testing, optimization, language/runtime behavior, and reproducibility. Wattch builds on that foundation by turning the research concerns into developer infrastructure: repeatable runs, explicit overhead, structured reports, and tooling that can fit into an engineering workflow.
+My PhD work focused on energy-aware software engineering: measurement, benchmarking, testing, optimization, language/runtime behavior, and reproducibility. Wattch builds on that foundation by turning those research concerns into developer infrastructure with an explicit privilege boundary, deterministic validation, and conservative measurement semantics.
 
 - **[chakib_belgaid_thesis](https://github.com/chakib-belgaid/chakib_belgaid_thesis)** - thesis source and materials.
 
