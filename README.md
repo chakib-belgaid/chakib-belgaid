@@ -1,12 +1,18 @@
 # Chakib Belgaid, PhD
 
-I build AI systems, developer tools, creative media software, and energy-aware infrastructure.
+Applied AI engineer (Ph.D.). Lead AI Engineer at [MCQ Scan](https://mcq-scan.com/), building production LLM agent systems, plus developer tools and energy-aware infrastructure.
 
 My work connects product craft with measurable systems: local AI should remain useful without giving up privacy, developer tooling should preserve evidence, and energy claims should be reproducible before they are optimized.
 
 [Portfolio](https://chakib-belgaid.github.io) · [LinkedIn](https://linkedin.com/in/chakib-belgaid) · [Email](mailto:chakib.belgaid@gmail.com)
 
 ## Featured work
+
+### [Whispbook](https://github.com/chakib-belgaid/whispbook)
+
+A self-hosted agentic audiobook studio that turns books into multi-voice audiobooks: planner/coordinator agents, controlled context construction, structured outputs, and evaluation reports. Speaker attribution uses a [fine-tuned Qwen3-4B LoRA](https://huggingface.co/chakibmed/whispbook-qwen3-4b-speaker-lora-speaker_lora_v1_easy_evidence_only_cleaned) served locally.
+
+`Python` · `FastAPI` · `React` · `vLLM` · `Qwen3-4B LoRA` · `Structured outputs`
 
 ### [Whisperbook](https://github.com/chakib-belgaid/whisper-book)
 
